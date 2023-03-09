@@ -1,0 +1,11 @@
+/* Index */
+@import '../global/global.css';
+/* Partials */
+@import './partials/loading.css';
+@import './partials/nav.css';
+@import './partials/footer.css';
+@import './partials/section-apresentacao.css';
+@import './partials/section-quemsomos.css';
+@import './partials/section-vote.css';
+@import './partials/section-entre.css';
+@import './partials/section-depoimentos.css';

@@ -1,0 +1,63 @@
+/* <section class="quemSomos"> */
+section.quemSomos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--cor-secundaria-1);
+}
+/* Titulo */
+section.quemSomos .titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  padding: 23px 0;
+}
+section.quemSomos .titulo h2 {
+  font-family: var(--bold);
+  font-size: 30px;
+  line-height: 1;
+  color: var(--cor-branco);
+  width: 100%;
+  max-width: 246px;
+}
+section.quemSomos .titulo p span {
+  color: var(--cor-primaria);
+}
+section.quemSomos .titulo p {
+  font-family: var(--regular);
+  font-size: 17px;
+  color: var(--cor-branco);
+  padding: 10px 0 0 2px;
+  width: 100%;
+  max-width: 850px;
+  line-height: 1.5;
+}
+
+/* Responsivo */
+@media screen and (max-width: 1000px) {
+  section.quemSomos {
+    flex-direction: column;
+  }
+  section.quemSomos .titulo {
+    width: 100%;
+  }
+  section.quemSomos .titulo {
+    padding: 80px 30px;
+  }
+  section.quemSomos .titulo h2 {
+    font-size: 40px;
+    max-width: 400px;
+  }
+  section.quemSomos .titulo p {
+    max-width: 350px;
+  }
+  section.quemSomos .itens .item h3 {
+    font-size: 35px;
+  }
+  section.quemSomos .itens .item p {
+    font-size: 13px;
+    max-width: 160px;
+  }
+}
